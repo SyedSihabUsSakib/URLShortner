@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+##About Stack and Experience
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+REACT JS is chosen by me. I had little knowledge about this library as I had only done designing part in my previous project. In this project I have learnt different functionalities of form, addition and deletion from array of objects.
 
-## Available Scripts
+##URL Shortner
 
-In the project directory, you can run:
+This is a web application that shortens long URL by generating short URL.
 
-### `npm start`
+##Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Accepts a long URL from the user and generates a shortened URL
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-Short URL indicated with the 'Short URL Code' on the form and it is listed at the bottom of the list in the 'Available Links'
 
-### `npm test`
+-When the short link is clicked, it redirects the user to the original long link. Additionally, the count value associated with the short URL is incremented by one, indicating the number of times the short URL has been visited. This count value is then stored in a persistent memory along with the corresponding long and short URLs
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-There is also an 'Statistics' page for showing all the URLs and their counts showing the number of times the short links have been visited
+   
+-Individual number of count for a certain link can be seen by routing to domain/shorURLcode/stat
 
-### `npm run build`
+## Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Live Demo](https://shrinker.netlify.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##Technologies Used
 
-### `npm run eject`
+1. React
+2. JavaScript
+3. HTML
+4. CSS
+5. Bootstrap
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```shell
+   git clone https://github.com/SyedSihabUsSakib/URLShortner.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project directory
 
-## Learn More
+3.Install dependencies:
+    npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4.Start the development server:
+    npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##Usage
 
-### Code Splitting
+1. Enter a long URL in the input field and click the "Shorten" button
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. The application will generate a shortened URL and display it in the list and genenrate a code for short URL on the form
 
-### Analyzing the Bundle Size
+3. Click on a shortened URL to redirect to the corresponding long URL
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+4. Visit the statistics page by appending /short-url/stats to the application URL
 
-### Making a Progressive Web App
+5. Visit Statistics page for all available statistics of the URLs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+##Contact
 
-### Advanced Configuration
+If you have any questions or suggestions, please feel free to reach out to me at sakibshihab12@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
