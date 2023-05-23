@@ -12,7 +12,7 @@ const Home = (props) => {
         flexDirection: "column",
       }
     
-     console.log(props.links)
+    //  console.log(props.links)
 
   return (
 

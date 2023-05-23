@@ -6,7 +6,8 @@ const ShortUrlPage = ({links,setLinks}) => {
 
     //console.log("shihiii",links);
     const [isCheck,setIsCheck] = useState(false)
-
+    const [flag,setFlag] = useState(false)
+    
 
     const {shortCode} = useParams()
 
@@ -15,9 +16,15 @@ const ShortUrlPage = ({links,setLinks}) => {
         //console.log("sadfdsa")
         let realLink=links.find((e)=>{
             //console.log(e)
-           if(e.shortLink===shortCode)return true;
+           if(e.shortLink===shortCode){
+           
+            return true;
+           }
+
         })
+        if(!realLink && links.length>0) setFlag(true);
          //console.log(realLink);
+         
         if(realLink && !isCheck){
             setIsCheck(true)
             const newLinks = links?.map(item=> {
@@ -41,9 +48,11 @@ const ShortUrlPage = ({links,setLinks}) => {
 
   return (
     <div>
-      <h1 className='text-danger'>Not Found!</h1>
+        {flag&&<h1 className='text-danger'>Not Found!</h1>}
     </div>
   )
 }
 
 export default ShortUrlPage
+
+

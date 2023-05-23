@@ -57,7 +57,7 @@ const Form = (props) => {
                 className="form-control border-2 mt-3"
                 value={shortUrl}
                 // onChange={(e) => setLongUrl(e.target.value)}
-                placeholder="New Short URL"
+                placeholder="Short URL Code"
                 readonly
               />
             </div>

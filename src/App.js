@@ -7,6 +7,7 @@ import ShortUrlPage from './pages/ShortUrlPage';
 import NotFound from './pages/NotFound';
 import { saveDataToLocalStorage,retrieveDataFromLocalStorage } from "./utils/localStorage";
 import Stat from './pages/Stat';
+import Statistics from './pages/Statistics';
 function App() {
   const [links,setLinks] = useState([])
 
@@ -50,6 +51,10 @@ function App() {
     <Routes >
 
       <Route path="/not-found" element={<NotFound/>} />
+
+      <Route path="/statistics/:shortCode" element={<ShortUrlPage links={links} setLinks={setLinks} />} />
+
+      <Route path="/statistics" element={<Statistics links={links} onDelete={onDelete}/>}/>
 
       <Route path="/:shortCode/stat" element={<Stat links={links} setLinks={setLinks} />} />
 
