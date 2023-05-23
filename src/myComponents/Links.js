@@ -8,7 +8,7 @@ const Links = (props) => {
   return (
       <div className='container'>
           <div className="row py-2" style={singleLinkStyle}>
-              <div className="col-md-6"><h6>{props.link.longLink}</h6></div>
+              <div className="col-md-6 overflow-auto"><h6>{props.link.longLink}</h6></div>
               <div className="col-md-4">
                   <Link to={props.link.shortLink} target="_blank">
                       <h6>{props.link.shortLink}</h6>
