@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function Header(props) {
     let headerStyle={
         margin:0,
@@ -9,7 +9,7 @@ export default function Header(props) {
         
             <nav className="navbar navbar-expand-lg" style={headerStyle}>
                 <div className="container-fluid bg-dark p-2">
-                    <a className="navbar-brand text-light px-5" href="#"><h5>URL Shortner</h5></a>
+                    <Link className="navbar-brand text-light px-5" to="./"><h5>URL Shortner</h5></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
