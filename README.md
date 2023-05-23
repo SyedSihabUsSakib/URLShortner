@@ -1,12 +1,12 @@
-##About Stack and Experience
+## About Stack and Experience
 
 REACT JS is chosen by me. I had little knowledge about this library as I had only done designing part in my previous project. In this project I have learnt different functionalities of form, addition and deletion from array of objects.
 
-##URL Shortner
+## URL Shortner
 
 This is a web application that shortens long URL by generating short URL.
 
-##Features
+## Features
 
 - Accepts a long URL from the user and generates a shortened URL
 
@@ -23,7 +23,7 @@ This is a web application that shortens long URL by generating short URL.
 [Live Demo](https://shrinker.netlify.app/)
 
 
-##Technologies Used
+## Technologies Used
 
 1. React
 2. JavaScript
@@ -46,7 +46,7 @@ This is a web application that shortens long URL by generating short URL.
 4.Start the development server:
     npm start
 
-##Usage
+## Usage
 
 1. Enter a long URL in the input field and click the "Shorten" button
 
@@ -58,7 +58,7 @@ This is a web application that shortens long URL by generating short URL.
 
 5. Visit Statistics page for all available statistics of the URLs
 
-##Contact
+## Contact
 
 If you have any questions or suggestions, please feel free to reach out to me at sakibshihab12@gmail.com
 
