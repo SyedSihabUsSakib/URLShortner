@@ -36,7 +36,7 @@ const Form = (props) => {
       else newUrl = generateShortUrl();
     }
     // setLongUrl("");
-    setShortUrl(newUrl);
+    setShortUrl("https://shrinker.netlify.app/" + newUrl);
     props.addUrl(longUrl, newUrl, 0);
   };
   // let sihab = "s";
@@ -59,7 +59,7 @@ const Form = (props) => {
               className="form-control border-2 mt-3"
               value={shortUrl}
               // onChange={(e) => setLongUrl(e.target.value)}
-              placeholder="Short URL Code"
+              placeholder="Short URL"
               readonly
             />
           </div>
