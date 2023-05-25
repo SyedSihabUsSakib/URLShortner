@@ -36,7 +36,7 @@ const Form = (props) => {
       else newUrl = generateShortUrl();
     }
     // setLongUrl("");
-    setShortUrl("https://shrinker.netlify.app/" + newUrl);
+    setShortUrl(newUrl);
     props.addUrl(longUrl, newUrl, 0);
   };
   // let sihab = "s";
