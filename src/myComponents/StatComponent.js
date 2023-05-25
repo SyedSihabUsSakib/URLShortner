@@ -27,7 +27,7 @@ const StatComponent = ({links}) => {
                 </div>
                 <div className="row container my-2  p-2 rounded">
                     <div className="col-md-6"><h5>{realLink?.longLink}</h5></div>
-                    <div className="col-md-4"><h5>{realLink?.shortLink}</h5></div>
+                    <div className="col-md-4"><h5>{'https://shrinker.netlify.app/'+realLink?.shortLink}</h5></div>
                     <div className="col-md-2"><h5>{realLink?.count}</h5></div>
                 </div>
 

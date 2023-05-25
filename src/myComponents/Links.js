@@ -11,7 +11,7 @@ const Links = (props) => {
               <div className="col-md-6 overflow-auto"><h6>{props.link.longLink}</h6></div>
               <div className="col-md-4">
                   <Link to={props.link.shortLink} target="_blank">
-                      <h6>{props.link.shortLink}</h6>
+                      <h6>{'https://shrinker.netlify.app/'+props.link.shortLink}</h6>
                   </Link>
               </div>
               <div className="col-md-1 d-flex flex-row">
